@@ -43,5 +43,16 @@
 		fatal_lang_error('feature_disabled', false);]]></add>
 		</operation>
 	</file>
+	
+	<file name="$sourcedir/ManageSettings.php">
+		<operation>
+			<search position="replace"><![CDATA[
+			array('text', 'karmaApplaudLabel'),
+			array('text', 'karmaSmiteLabel'),]]></search>
+
+			<add><![CDATA[
+			array('text', 'karmaApplaudLabel'),]]></add>
+		</operation>
+	</file>	
 
 </modification>

@@ -4,7 +4,7 @@
 Mod by xPandax | [url=http://custom.simplemachines.org/mods/index.php?action=profile;u=158159]Other Mods[/url] by xPandax
 [/center]
 [hr]
-[center][url=http://custom.simplemachines.org/mods/index.php?mod=3761]Link to Mod[/url] | [url]Support Thread for this Mod[/url][/center]
+[center][url=http://custom.simplemachines.org/mods/index.php?mod=3761]Link to Mod[/url] | [url=http://www.simplemachines.org/community/index.php?topic=508754.0]Support Thread for this Mod[/url][/center]
 
 
 [color=purple][size=12pt][b]Features[/b][/size][/color]
@@ -28,7 +28,7 @@ NA.
 
 
 [color=purple][size=12pt][b]Support[/b][/size][/color]
-If you need support with this mod, please use the [url]Support Thread for this Mod[/url].
+If you need support with this mod, please use the [url=http://www.simplemachines.org/community/index.php?topic=508754.0]Support Thread for this Mod[/url].
 
  
 [color=purple][size=12pt][b]Changelog[/b][/size][/color]

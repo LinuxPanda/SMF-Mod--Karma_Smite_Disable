@@ -4,7 +4,7 @@
 <modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
 
 	<id>xPandax:Karma_Smite_Disable</id>
-	<version>1.0</version>
+	<version>1.1</version>
 
 	<file name="$themedir/Display.template.php">
 		<operation>
@@ -30,20 +30,23 @@
 				</li>';]]></add>
 		</operation>
 	</file>
-	
+
 	<file name="$sourcedir/Karma.php">
 		<operation>
-			<search position="before"><![CDATA[
-	// The user ID _must_ be a number, no matter what.
-	$_REQUEST['uid'] = (int) $_REQUEST['uid'];]]></search>
+			<search position="replace"><![CDATA[
+	// Applauding or smiting?
+	$dir = $_REQUEST['sa'] != 'applaud' ? -1 : 1;]]></search>
 
 			<add><![CDATA[
 	// Disable Karma Smite
 	if($_REQUEST['sa'] == 'smite')
-		fatal_lang_error('feature_disabled', false);]]></add>
+		fatal_lang_error('feature_disabled', false);
+
+	// Applauding or smiting? - Disable it since people are adding -ve karma to users using a url bug
+	$dir = 1;]]></add>
 		</operation>
 	</file>
-	
+
 	<file name="$sourcedir/ManageSettings.php">
 		<operation>
 			<search position="replace"><![CDATA[

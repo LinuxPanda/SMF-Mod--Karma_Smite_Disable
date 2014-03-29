@@ -6,6 +6,7 @@ This mod disables 'Karma Smite' option. In other words, users can see & use only
 
 Version
 -------
+* 1.1 - Disabled the users to add "-ve" value to karma using the applaud function. Thanks to androgyn3 (http://www.simplemachines.org/community/index.php?action=profile;u=275767) for the tip.
 * 1.0 - Initial release
 
 License

@@ -20,7 +20,7 @@ Works on all the themes without any custom edits!
 
 
 [color=purple][size=12pt][b]Supported SMF Versions[/b][/size][/color]
-Tested on fresh installation of 2.0.4.
+Tested on fresh installation of 2.0.x.
 
 
 [color=purple][size=12pt][b]Supported Languages[/b][/size][/color]
@@ -32,7 +32,10 @@ If you need support with this mod, please use the [url=http://www.simplemachines
 
  
 [color=purple][size=12pt][b]Changelog[/b][/size][/color]
-[b]v1.0[/b] - Initial release.
+v1.1 (13 March 2014)
+[list][li]Disabled the users to add "-ve" value to karma using the applaud function. Thanks to [color=blue][b][url=http://www.simplemachines.org/community/index.php?action=profile;u=275767]androgyn3[/url][/b][/color] for the tip.[/li]
+v1.0
+[list][li]v1.0 - Initial release.[/li][/list]
 
 
 [hr][center][color=purple][size=14pt][b]License[/b][/size][/color]
